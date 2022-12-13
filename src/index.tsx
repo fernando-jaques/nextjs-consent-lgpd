@@ -106,7 +106,7 @@ const SettingRow: React.FC<{
       </div>
       <p>{reason}</p>
       <a href={privacyPolicyLink} target='_blank' rel='noreferrer noopener'>
-        {[I18nKeys.PRIVACY_POLICY]}
+        {i18n[I18nKeys.PRIVACY_POLICY]}
       </a>
     </div>
   )
@@ -347,11 +347,11 @@ export class ConsentManager extends React.Component<
   }
 
   renderBottomLinks() {
-    const { privacyPolicyLink } = this.props.options
+    const { privacyPolicyLink, i18n } = this.props.options
     return (
       <div className='rncm__bottom_links'>
         <a href={privacyPolicyLink} target='_blank' rel='noreferrer noopener'>
-          {[I18nKeys.PRIVACY_POLICY]}
+          {i18n[I18nKeys.PRIVACY_POLICY]}
         </a>
       </div>
     )

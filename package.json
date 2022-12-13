@@ -1,6 +1,6 @@
 {
   "name": "nextjs-consentimento-lgpd",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Biblioteca para gerenciar consentimento de cookies no nextjs",
   "license": "MIT",
   "repository": "fernando-jaques/nextjs-consentimento-lgpd",
@@ -28,6 +28,7 @@
   "dependencies": {
     "autobind-decorator": "^2.4.0",
     "clsx": "^1.1.1",
+    "nextjs-consentimento-lgpd": "^1.0.0",
     "react-icons": "^4.4.0",
     "universal-cookie": "^4.0.4"
   },
