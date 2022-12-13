@@ -1,9 +1,9 @@
 {
-  "name": "react-nextjs-consentimento-lgpd",
+  "name": "nextjs-consentimento-lgpd",
   "version": "1.0.0",
-  "description": "Biblioteca para lidar com o gerenciamento de consentimento de cookies no nextjs",
+  "description": "Biblioteca para gerenciar consentimento de cookies no nextjs",
   "license": "MIT",
-  "repository": "fernando-jaques/react-nextjs-consentimento-lgpd",
+  "repository": "fernando-jaques/nextjs-consentimento-lgpd",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
